@@ -10,7 +10,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+    <!-- Our own CSS -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!--  To use Font Awesome & Bootstrap Social buttons-->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
     <title>Ristorante Con Fusion</title>
 </head>
@@ -26,16 +31,24 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
                     <li class="navbar-item active">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-home fa-lg"></span>Home
+                        </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="./aboutus.html" class="nav-link">About us</a>
+                        <a href="./aboutus.html" class="nav-link">
+                            <span class="fa fa-info fa-lg"></span>About us
+                        </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link">Menu</a>
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-list fa-lg"></span>Menu
+                        </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-address-card fa-lg"></span>Contact
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -109,20 +122,32 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
                 <div class="col col-sm-4 align-self-center">
                 <!-- Note for XS screens, I just have col. I should have col-1 because above, 5+6 one is remaining, if I do this it works but we cannot read the text as it is too long, people have to scroll... By putting just col, the text will go to the next line  -->
                     <div style="text-align: center;">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a href="mailto:">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
                     </div>
                 </div>
            </div>
